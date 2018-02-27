@@ -58,7 +58,7 @@ int main(){
     // enable gl depth
     glEnable( GL_DEPTH_TEST );
     // load shaders
-    GLuint programID = LoadShaders( "shaders/shader.vs", "shaders/shader.fs" );
+    GLuint programID = LoadShaders( "shader.vs", "shader.fs" );
 
     // generate a list of 100 quad locations/translation-vectors
     glm::vec2 translations[500];
